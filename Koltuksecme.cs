@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,23 +13,32 @@ namespace Projee
 {
     public partial class Koltuksecme : Form
     {
+        private List<Button> secilenButonlar = new List<Button>();
         public Koltuksecme()
         {
             InitializeComponent();
 
         }
+        Musteribilgi musteribilgi = new Musteribilgi();
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            Musteribilgi musteribilgi = new Musteribilgi();
+        {            
             musteribilgi.Show();
-            this.Close();
+            this.Close();                     
         }
 
         private void Koltuksecme_Load(object sender, EventArgs e)
         {
+            int secilikoltuk = 0;
+            int[] kadin = { };
+            int[] erkek = { };
+            for(int i = 0; i< secilikoltuk; i++)
+            {
+                
+            }
 
         }
+
 
         private void koltuk1_Click(object sender, EventArgs e)
         {

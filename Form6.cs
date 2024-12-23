@@ -13,6 +13,7 @@ namespace Projee
 {
     public partial class Form6 : Form
     {
+        Musteribilgi musteri_bilgi = new Musteribilgi();
         public Form6()
         {
             InitializeComponent();
@@ -21,7 +22,7 @@ namespace Projee
         private void Form6_Load(object sender, EventArgs e)
         {
             MySqlConnection connect = new MySqlConnection("server='localhost';Database='proje';Uid='root';Pwd='emiretis5334';");
-            string komut = "select * from yolcular";
+            string komut = "select * from yolcu_bilgi";
             MySqlDataAdapter da = new MySqlDataAdapter(komut, connect);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -31,7 +32,7 @@ namespace Projee
         private void button1_Click(object sender, EventArgs e)
         {
             MySqlConnection connect = new MySqlConnection("server='localhost';Database='proje';Uid='root';Pwd='emiretis5334';");
-            string komut = $"delete from yolcular where y_koltuk ='{koltuktext.Text}'";
+            string komut = $"delete from yolcu_bilgi where y_tc ='{yolcutc.Text}'";
             MySqlCommand cmd = new MySqlCommand(komut, connect);
             connect.Open();
             MySqlDataReader dr = cmd.ExecuteReader();
@@ -43,11 +44,16 @@ namespace Projee
         private void button1_Click_1(object sender, EventArgs e)
         {
             MySqlConnection connect = new MySqlConnection("server='localhost';Database='proje';Uid='root';Pwd='emiretis5334';");
-            string komut = "select * from yolcular";
+            string komut = "select * from yolcu_bilgi";
             MySqlDataAdapter da = new MySqlDataAdapter(komut, connect);
             DataTable dt = new DataTable();
             da.Fill(dt);
             ygostermedata.DataSource = dt;
+        }
+
+        private void idlabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

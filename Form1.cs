@@ -27,17 +27,23 @@ namespace Projee
         }
         private void combonereye_SelectedIndexChanged(object? sender, EventArgs e)
         {
-            
+
         }
 
         private void combonereden_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
 
         }
         private void UpdateComboBoxAvailability()
         {
-            
+
+        }
+
+        private void biletiptalb_Click(object sender, EventArgs e)
+        {
+            Form2 bilet_iptal = new Form2();
+            bilet_iptal.Show();
         }
     }
 }

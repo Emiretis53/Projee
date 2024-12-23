@@ -32,7 +32,7 @@ namespace Projee
         private void ysatinal_Click(object sender, EventArgs e)
         {
             MySqlConnection connect = new MySqlConnection("server='localhost';Database='proje';Uid='root';Pwd='emiretis5334';");
-            MySqlCommand komut = new MySqlCommand($"insert into yolcular(y_isim,y_soyisim,y_telefon,y_mail,y_tc,y_kredi) values('{yisimtext.Text}','{ysoyisimtext.Text}','{ytelefontext.Text}','{ymailtext.Text}','{ytctext.Text}','{ykreditext.Text}'); ",connect);
+            MySqlCommand komut = new MySqlCommand($"insert into yolcu_bilgi(y_isim,y_soyisim,y_telefon,y_mail,y_tc,y_kredi) values('{yisimtext.Text}','{ysoyisimtext.Text}','{ytelefontext.Text}','{ymailtext.Text}','{ytctext.Text}','{ykreditext.Text}'); ",connect);
             connect.Open();
             komut.ExecuteNonQuery();
             connect.Close();                      

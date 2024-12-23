@@ -151,6 +151,7 @@
             biletiptalb.Text = "BİLET İPTAL";
             biletiptalb.TextAlign = ContentAlignment.MiddleRight;
             biletiptalb.UseVisualStyleBackColor = false;
+            biletiptalb.Click += biletiptalb_Click;
             // 
             // ımageList2
             // 
@@ -189,6 +190,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TARİH SEÇİMİ";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

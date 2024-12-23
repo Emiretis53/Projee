@@ -42,6 +42,8 @@
             aliosmanulusoyb = new Button();
             ımageList5 = new ImageList(components);
             pictureBox1 = new PictureBox();
+            gerib = new Button();
+            ımageList6 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -163,12 +165,32 @@
             pictureBox1.Size = new Size(604, 565);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // gerib
+            // 
+            gerib.ImageKey = "png-clipart-button-back-s-blue-text-thumbnail.png";
+            gerib.ImageList = ımageList6;
+            gerib.Location = new Point(545, 12);
+            gerib.Name = "gerib";
+            gerib.Size = new Size(47, 41);
+            gerib.TabIndex = 7;
+            gerib.UseVisualStyleBackColor = true;
+            gerib.Click += button1_Click;
+            // 
+            // ımageList6
+            // 
+            ımageList6.ColorDepth = ColorDepth.Depth32Bit;
+            ımageList6.ImageStream = (ImageListStreamer)resources.GetObject("ımageList6.ImageStream");
+            ımageList6.TransparentColor = Color.Transparent;
+            ımageList6.Images.SetKeyName(0, "png-clipart-button-back-s-blue-text-thumbnail.png");
             // 
             // Otobus_secme_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(604, 565);
+            Controls.Add(gerib);
             Controls.Add(aliosmanulusoyb);
             Controls.Add(kamilkocb);
             Controls.Add(pamukkaleb);
@@ -179,6 +201,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Otobus_secme_form";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FİRMA SEÇ";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -199,5 +222,7 @@
         private ImageList ımageList4;
         private ImageList ımageList5;
         private PictureBox pictureBox1;
+        private Button gerib;
+        private ImageList ımageList6;
     }
 }

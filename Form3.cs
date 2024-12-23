@@ -35,6 +35,20 @@ namespace Projee
         {
             Form6 form6 = new Form6();
             form6.Show();
+
+        }
+
+        private void otokontrolb_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8();
+            form8.Show();
+        }
+
+        private void gerib_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Close();
             
         }
     }

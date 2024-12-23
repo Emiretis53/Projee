@@ -81,11 +81,13 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // secimtmmb
             // 
-            secimtmmb.Location = new Point(47, 562);
+            secimtmmb.Location = new Point(51, 561);
             secimtmmb.Margin = new Padding(3, 2, 3, 2);
             secimtmmb.Name = "secimtmmb";
             secimtmmb.Size = new Size(318, 54);
@@ -96,7 +98,7 @@
             // 
             // koltuk1
             // 
-            koltuk1.Location = new Point(47, 53);
+            koltuk1.Location = new Point(51, 52);
             koltuk1.Name = "koltuk1";
             koltuk1.Size = new Size(75, 23);
             koltuk1.TabIndex = 1;
@@ -106,7 +108,7 @@
             // 
             // koltuk2
             // 
-            koltuk2.Location = new Point(209, 53);
+            koltuk2.Location = new Point(213, 52);
             koltuk2.Name = "koltuk2";
             koltuk2.Size = new Size(75, 23);
             koltuk2.TabIndex = 2;
@@ -116,7 +118,7 @@
             // 
             // koltuk3
             // 
-            koltuk3.Location = new Point(290, 53);
+            koltuk3.Location = new Point(294, 52);
             koltuk3.Name = "koltuk3";
             koltuk3.Size = new Size(75, 23);
             koltuk3.TabIndex = 3;
@@ -126,7 +128,7 @@
             // 
             // koltuk4
             // 
-            koltuk4.Location = new Point(47, 82);
+            koltuk4.Location = new Point(51, 81);
             koltuk4.Name = "koltuk4";
             koltuk4.Size = new Size(75, 23);
             koltuk4.TabIndex = 4;
@@ -136,7 +138,7 @@
             // 
             // koltuk5
             // 
-            koltuk5.Location = new Point(209, 82);
+            koltuk5.Location = new Point(213, 81);
             koltuk5.Name = "koltuk5";
             koltuk5.Size = new Size(75, 23);
             koltuk5.TabIndex = 5;
@@ -146,7 +148,7 @@
             // 
             // koltuk6
             // 
-            koltuk6.Location = new Point(290, 82);
+            koltuk6.Location = new Point(294, 81);
             koltuk6.Name = "koltuk6";
             koltuk6.Size = new Size(75, 23);
             koltuk6.TabIndex = 6;
@@ -156,7 +158,7 @@
             // 
             // koltuk7
             // 
-            koltuk7.Location = new Point(47, 111);
+            koltuk7.Location = new Point(51, 110);
             koltuk7.Name = "koltuk7";
             koltuk7.Size = new Size(75, 23);
             koltuk7.TabIndex = 7;
@@ -166,7 +168,7 @@
             // 
             // koltuk8
             // 
-            koltuk8.Location = new Point(209, 111);
+            koltuk8.Location = new Point(213, 110);
             koltuk8.Name = "koltuk8";
             koltuk8.Size = new Size(75, 23);
             koltuk8.TabIndex = 8;
@@ -176,7 +178,7 @@
             // 
             // koltuk9
             // 
-            koltuk9.Location = new Point(290, 111);
+            koltuk9.Location = new Point(294, 110);
             koltuk9.Name = "koltuk9";
             koltuk9.Size = new Size(75, 23);
             koltuk9.TabIndex = 9;
@@ -186,7 +188,7 @@
             // 
             // koltuk10
             // 
-            koltuk10.Location = new Point(47, 140);
+            koltuk10.Location = new Point(51, 139);
             koltuk10.Name = "koltuk10";
             koltuk10.Size = new Size(75, 23);
             koltuk10.TabIndex = 10;
@@ -196,7 +198,7 @@
             // 
             // koltuk11
             // 
-            koltuk11.Location = new Point(209, 140);
+            koltuk11.Location = new Point(213, 139);
             koltuk11.Name = "koltuk11";
             koltuk11.Size = new Size(75, 23);
             koltuk11.TabIndex = 11;
@@ -206,7 +208,7 @@
             // 
             // koltuk12
             // 
-            koltuk12.Location = new Point(290, 140);
+            koltuk12.Location = new Point(294, 139);
             koltuk12.Name = "koltuk12";
             koltuk12.Size = new Size(75, 23);
             koltuk12.TabIndex = 12;
@@ -216,7 +218,7 @@
             // 
             // koltuk13
             // 
-            koltuk13.Location = new Point(47, 169);
+            koltuk13.Location = new Point(51, 168);
             koltuk13.Name = "koltuk13";
             koltuk13.Size = new Size(75, 23);
             koltuk13.TabIndex = 13;
@@ -226,7 +228,7 @@
             // 
             // koltuk14
             // 
-            koltuk14.Location = new Point(209, 169);
+            koltuk14.Location = new Point(213, 168);
             koltuk14.Name = "koltuk14";
             koltuk14.Size = new Size(75, 23);
             koltuk14.TabIndex = 14;
@@ -236,7 +238,7 @@
             // 
             // koltuk15
             // 
-            koltuk15.Location = new Point(290, 169);
+            koltuk15.Location = new Point(294, 168);
             koltuk15.Name = "koltuk15";
             koltuk15.Size = new Size(75, 23);
             koltuk15.TabIndex = 15;
@@ -247,7 +249,7 @@
             // 
             // koltuk16
             // 
-            koltuk16.Location = new Point(47, 198);
+            koltuk16.Location = new Point(51, 197);
             koltuk16.Name = "koltuk16";
             koltuk16.Size = new Size(75, 23);
             koltuk16.TabIndex = 16;
@@ -257,7 +259,7 @@
             // 
             // koltuk17
             // 
-            koltuk17.Location = new Point(209, 198);
+            koltuk17.Location = new Point(213, 197);
             koltuk17.Name = "koltuk17";
             koltuk17.Size = new Size(75, 23);
             koltuk17.TabIndex = 17;
@@ -267,7 +269,7 @@
             // 
             // koltuk18
             // 
-            koltuk18.Location = new Point(290, 198);
+            koltuk18.Location = new Point(294, 197);
             koltuk18.Name = "koltuk18";
             koltuk18.Size = new Size(75, 23);
             koltuk18.TabIndex = 18;
@@ -277,7 +279,7 @@
             // 
             // koltuk19
             // 
-            koltuk19.Location = new Point(47, 227);
+            koltuk19.Location = new Point(51, 226);
             koltuk19.Name = "koltuk19";
             koltuk19.Size = new Size(75, 23);
             koltuk19.TabIndex = 19;
@@ -287,7 +289,7 @@
             // 
             // koltuk20
             // 
-            koltuk20.Location = new Point(209, 227);
+            koltuk20.Location = new Point(213, 226);
             koltuk20.Name = "koltuk20";
             koltuk20.Size = new Size(75, 23);
             koltuk20.TabIndex = 20;
@@ -297,7 +299,7 @@
             // 
             // koltuk21
             // 
-            koltuk21.Location = new Point(290, 227);
+            koltuk21.Location = new Point(294, 226);
             koltuk21.Name = "koltuk21";
             koltuk21.Size = new Size(75, 23);
             koltuk21.TabIndex = 21;
@@ -307,7 +309,7 @@
             // 
             // koltuk22
             // 
-            koltuk22.Location = new Point(47, 296);
+            koltuk22.Location = new Point(51, 295);
             koltuk22.Name = "koltuk22";
             koltuk22.Size = new Size(75, 23);
             koltuk22.TabIndex = 22;
@@ -317,7 +319,7 @@
             // 
             // koltuk23
             // 
-            koltuk23.Location = new Point(209, 296);
+            koltuk23.Location = new Point(213, 295);
             koltuk23.Name = "koltuk23";
             koltuk23.Size = new Size(75, 23);
             koltuk23.TabIndex = 23;
@@ -327,7 +329,7 @@
             // 
             // koltuk24
             // 
-            koltuk24.Location = new Point(290, 296);
+            koltuk24.Location = new Point(294, 295);
             koltuk24.Name = "koltuk24";
             koltuk24.Size = new Size(75, 23);
             koltuk24.TabIndex = 24;
@@ -337,7 +339,7 @@
             // 
             // koltuk25
             // 
-            koltuk25.Location = new Point(47, 325);
+            koltuk25.Location = new Point(51, 324);
             koltuk25.Name = "koltuk25";
             koltuk25.Size = new Size(75, 23);
             koltuk25.TabIndex = 25;
@@ -347,7 +349,7 @@
             // 
             // koltuk26
             // 
-            koltuk26.Location = new Point(209, 325);
+            koltuk26.Location = new Point(213, 324);
             koltuk26.Name = "koltuk26";
             koltuk26.Size = new Size(75, 23);
             koltuk26.TabIndex = 26;
@@ -357,7 +359,7 @@
             // 
             // koltuk27
             // 
-            koltuk27.Location = new Point(290, 325);
+            koltuk27.Location = new Point(294, 324);
             koltuk27.Name = "koltuk27";
             koltuk27.Size = new Size(75, 23);
             koltuk27.TabIndex = 27;
@@ -367,7 +369,7 @@
             // 
             // koltuk28
             // 
-            koltuk28.Location = new Point(47, 354);
+            koltuk28.Location = new Point(51, 353);
             koltuk28.Name = "koltuk28";
             koltuk28.Size = new Size(75, 23);
             koltuk28.TabIndex = 28;
@@ -377,7 +379,7 @@
             // 
             // koltuk29
             // 
-            koltuk29.Location = new Point(209, 354);
+            koltuk29.Location = new Point(213, 353);
             koltuk29.Name = "koltuk29";
             koltuk29.Size = new Size(75, 23);
             koltuk29.TabIndex = 29;
@@ -387,7 +389,7 @@
             // 
             // koltuk30
             // 
-            koltuk30.Location = new Point(290, 354);
+            koltuk30.Location = new Point(294, 353);
             koltuk30.Name = "koltuk30";
             koltuk30.Size = new Size(75, 23);
             koltuk30.TabIndex = 30;
@@ -397,7 +399,7 @@
             // 
             // koltuk31
             // 
-            koltuk31.Location = new Point(47, 383);
+            koltuk31.Location = new Point(51, 382);
             koltuk31.Name = "koltuk31";
             koltuk31.Size = new Size(75, 23);
             koltuk31.TabIndex = 31;
@@ -407,7 +409,7 @@
             // 
             // koltuk32
             // 
-            koltuk32.Location = new Point(209, 383);
+            koltuk32.Location = new Point(213, 382);
             koltuk32.Name = "koltuk32";
             koltuk32.Size = new Size(75, 23);
             koltuk32.TabIndex = 32;
@@ -417,7 +419,7 @@
             // 
             // koltuk33
             // 
-            koltuk33.Location = new Point(290, 383);
+            koltuk33.Location = new Point(294, 382);
             koltuk33.Name = "koltuk33";
             koltuk33.Size = new Size(75, 23);
             koltuk33.TabIndex = 33;
@@ -427,7 +429,7 @@
             // 
             // koltuk34
             // 
-            koltuk34.Location = new Point(47, 412);
+            koltuk34.Location = new Point(51, 411);
             koltuk34.Name = "koltuk34";
             koltuk34.Size = new Size(75, 23);
             koltuk34.TabIndex = 34;
@@ -437,7 +439,7 @@
             // 
             // koltuk35
             // 
-            koltuk35.Location = new Point(209, 412);
+            koltuk35.Location = new Point(213, 411);
             koltuk35.Name = "koltuk35";
             koltuk35.Size = new Size(75, 23);
             koltuk35.TabIndex = 35;
@@ -447,7 +449,7 @@
             // 
             // koltuk36
             // 
-            koltuk36.Location = new Point(290, 412);
+            koltuk36.Location = new Point(294, 411);
             koltuk36.Name = "koltuk36";
             koltuk36.Size = new Size(75, 23);
             koltuk36.TabIndex = 36;
@@ -457,7 +459,7 @@
             // 
             // koltuk37
             // 
-            koltuk37.Location = new Point(47, 441);
+            koltuk37.Location = new Point(51, 440);
             koltuk37.Name = "koltuk37";
             koltuk37.Size = new Size(75, 23);
             koltuk37.TabIndex = 37;
@@ -467,7 +469,7 @@
             // 
             // koltuk38
             // 
-            koltuk38.Location = new Point(209, 441);
+            koltuk38.Location = new Point(213, 440);
             koltuk38.Name = "koltuk38";
             koltuk38.Size = new Size(75, 23);
             koltuk38.TabIndex = 38;
@@ -477,7 +479,7 @@
             // 
             // koltuk39
             // 
-            koltuk39.Location = new Point(290, 441);
+            koltuk39.Location = new Point(294, 440);
             koltuk39.Name = "koltuk39";
             koltuk39.Size = new Size(75, 23);
             koltuk39.TabIndex = 39;
@@ -487,7 +489,7 @@
             // 
             // koltuk40
             // 
-            koltuk40.Location = new Point(47, 470);
+            koltuk40.Location = new Point(51, 469);
             koltuk40.Name = "koltuk40";
             koltuk40.Size = new Size(75, 23);
             koltuk40.TabIndex = 40;
@@ -497,7 +499,7 @@
             // 
             // koltuk41
             // 
-            koltuk41.Location = new Point(209, 470);
+            koltuk41.Location = new Point(213, 469);
             koltuk41.Name = "koltuk41";
             koltuk41.Size = new Size(75, 23);
             koltuk41.TabIndex = 41;
@@ -507,7 +509,7 @@
             // 
             // koltuk42
             // 
-            koltuk42.Location = new Point(290, 470);
+            koltuk42.Location = new Point(294, 469);
             koltuk42.Name = "koltuk42";
             koltuk42.Size = new Size(75, 23);
             koltuk42.TabIndex = 42;
@@ -517,7 +519,7 @@
             // 
             // koltuk43
             // 
-            koltuk43.Location = new Point(47, 499);
+            koltuk43.Location = new Point(51, 498);
             koltuk43.Name = "koltuk43";
             koltuk43.Size = new Size(75, 23);
             koltuk43.TabIndex = 43;
@@ -527,7 +529,7 @@
             // 
             // koltuk44
             // 
-            koltuk44.Location = new Point(128, 499);
+            koltuk44.Location = new Point(132, 498);
             koltuk44.Name = "koltuk44";
             koltuk44.Size = new Size(75, 23);
             koltuk44.TabIndex = 44;
@@ -537,7 +539,7 @@
             // 
             // koltuk45
             // 
-            koltuk45.Location = new Point(209, 499);
+            koltuk45.Location = new Point(213, 498);
             koltuk45.Name = "koltuk45";
             koltuk45.Size = new Size(75, 23);
             koltuk45.TabIndex = 45;
@@ -547,7 +549,7 @@
             // 
             // koltuk46
             // 
-            koltuk46.Location = new Point(290, 499);
+            koltuk46.Location = new Point(294, 498);
             koltuk46.Name = "koltuk46";
             koltuk46.Size = new Size(75, 23);
             koltuk46.TabIndex = 46;
@@ -558,7 +560,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(301, 266);
+            label1.Location = new Point(305, 265);
             label1.Name = "label1";
             label1.Size = new Size(64, 15);
             label1.TabIndex = 47;
@@ -568,7 +570,7 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Orange;
-            label2.Location = new Point(61, 18);
+            label2.Location = new Point(65, 17);
             label2.Name = "label2";
             label2.Size = new Size(44, 15);
             label2.TabIndex = 48;
@@ -578,7 +580,7 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Orange;
-            label3.Location = new Point(221, 18);
+            label3.Location = new Point(225, 17);
             label3.Name = "label3";
             label3.Size = new Size(52, 15);
             label3.TabIndex = 49;
@@ -588,7 +590,7 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Pink;
-            label4.Location = new Point(380, 57);
+            label4.Location = new Point(384, 56);
             label4.Name = "label4";
             label4.Size = new Size(150, 15);
             label4.TabIndex = 50;
@@ -598,7 +600,7 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Blue;
-            label5.Location = new Point(380, 86);
+            label5.Location = new Point(384, 85);
             label5.Name = "label5";
             label5.Size = new Size(131, 15);
             label5.TabIndex = 51;
@@ -608,17 +610,27 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = SystemColors.ButtonHighlight;
-            label6.Location = new Point(380, 115);
+            label6.Location = new Point(384, 114);
             label6.Name = "label6";
             label6.Size = new Size(104, 15);
             label6.TabIndex = 52;
             label6.Text = "Beyaz - Boş Koltuk";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = Properties.Resources.d209cfe457e410d808e0b9bd2787b09b;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(545, 651);
+            pictureBox1.TabIndex = 53;
+            pictureBox1.TabStop = false;
+            // 
             // Koltuksecme
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(536, 629);
+            ClientSize = new Size(545, 651);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -672,11 +684,14 @@
             Controls.Add(koltuk2);
             Controls.Add(koltuk1);
             Controls.Add(secimtmmb);
+            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Koltuksecme";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Koltuksecme";
             Load += Koltuksecme_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -736,5 +751,6 @@
         private Label label4;
         private Label label5;
         private Label label6;
+        private PictureBox pictureBox1;
     }
 }

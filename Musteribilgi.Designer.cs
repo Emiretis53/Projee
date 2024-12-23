@@ -40,14 +40,12 @@
             ykreditext = new TextBox();
             ysatinal = new Button();
             yiptal = new Button();
-            ytelefontext = new MaskedTextBox();
             ytctext = new TextBox();
             textBox1 = new TextBox();
             fiyatlabel = new Label();
             erkekradiob = new RadioButton();
             kadinradiob = new RadioButton();
-            koltuknotext = new TextBox();
-            koltuknolabel = new Label();
+            ytelefontext = new TextBox();
             SuspendLayout();
             // 
             // yisimlabel
@@ -128,7 +126,7 @@
             // 
             ymailtext.Location = new Point(128, 159);
             ymailtext.Margin = new Padding(3, 2, 3, 2);
-            ymailtext.MaxLength = 20;
+            ymailtext.MaxLength = 45;
             ymailtext.Name = "ymailtext";
             ymailtext.Size = new Size(119, 23);
             ymailtext.TabIndex = 9;
@@ -145,7 +143,7 @@
             // 
             // ysatinal
             // 
-            ysatinal.Location = new Point(128, 418);
+            ysatinal.Location = new Point(128, 361);
             ysatinal.Margin = new Padding(3, 2, 3, 2);
             ysatinal.Name = "ysatinal";
             ysatinal.Size = new Size(118, 28);
@@ -156,7 +154,7 @@
             // 
             // yiptal
             // 
-            yiptal.Location = new Point(128, 450);
+            yiptal.Location = new Point(129, 393);
             yiptal.Margin = new Padding(3, 2, 3, 2);
             yiptal.Name = "yiptal";
             yiptal.Size = new Size(118, 28);
@@ -164,16 +162,6 @@
             yiptal.Text = "İPTAL";
             yiptal.UseVisualStyleBackColor = true;
             yiptal.Click += yiptal_Click;
-            // 
-            // ytelefontext
-            // 
-            ytelefontext.Location = new Point(123, 122);
-            ytelefontext.Margin = new Padding(3, 2, 3, 2);
-            ytelefontext.Mask = "(999) 000-0000";
-            ytelefontext.Name = "ytelefontext";
-            ytelefontext.Size = new Size(123, 23);
-            ytelefontext.TabIndex = 14;
-            ytelefontext.MaskInputRejected += ytelefontext_MaskInputRejected;
             // 
             // ytctext
             // 
@@ -187,7 +175,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(123, 287);
+            textBox1.Location = new Point(128, 287);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
             textBox1.Size = new Size(119, 23);
@@ -206,7 +194,7 @@
             // erkekradiob
             // 
             erkekradiob.AutoSize = true;
-            erkekradiob.Location = new Point(123, 384);
+            erkekradiob.Location = new Point(128, 337);
             erkekradiob.Name = "erkekradiob";
             erkekradiob.Size = new Size(58, 19);
             erkekradiob.TabIndex = 18;
@@ -216,7 +204,7 @@
             // kadinradiob
             // 
             kadinradiob.AutoSize = true;
-            kadinradiob.Location = new Point(187, 384);
+            kadinradiob.Location = new Point(192, 337);
             kadinradiob.Name = "kadinradiob";
             kadinradiob.Size = new Size(60, 19);
             kadinradiob.TabIndex = 19;
@@ -224,35 +212,24 @@
             kadinradiob.Text = "KADIN";
             kadinradiob.UseVisualStyleBackColor = true;
             // 
-            // koltuknotext
+            // ytelefontext
             // 
-            koltuknotext.Location = new Point(123, 330);
-            koltuknotext.Name = "koltuknotext";
-            koltuknotext.Size = new Size(123, 23);
-            koltuknotext.TabIndex = 20;
-            // 
-            // koltuknolabel
-            // 
-            koltuknolabel.AutoSize = true;
-            koltuknolabel.Location = new Point(22, 338);
-            koltuknolabel.Name = "koltuknolabel";
-            koltuknolabel.Size = new Size(95, 15);
-            koltuknolabel.TabIndex = 21;
-            koltuknolabel.Text = "Koltuk Numarası";
+            ytelefontext.Location = new Point(128, 117);
+            ytelefontext.Name = "ytelefontext";
+            ytelefontext.Size = new Size(119, 23);
+            ytelefontext.TabIndex = 22;
             // 
             // Musteribilgi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(378, 505);
-            Controls.Add(koltuknolabel);
-            Controls.Add(koltuknotext);
+            ClientSize = new Size(360, 466);
+            Controls.Add(ytelefontext);
             Controls.Add(kadinradiob);
             Controls.Add(erkekradiob);
             Controls.Add(fiyatlabel);
             Controls.Add(textBox1);
             Controls.Add(ytctext);
-            Controls.Add(ytelefontext);
             Controls.Add(yiptal);
             Controls.Add(ysatinal);
             Controls.Add(ykreditext);
@@ -268,6 +245,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Musteribilgi";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Musteribilgi";
             Load += Musteribilgi_Load;
             ResumeLayout(false);
@@ -289,12 +267,10 @@
         public TextBox ykreditext;
         public Button ysatinal;
         public Button yiptal;
-        public MaskedTextBox ytelefontext;
         public TextBox ytctext;
         public TextBox textBox1;
         private RadioButton erkekradiob;
         private RadioButton kadinradiob;
-        private TextBox koltuknotext;
-        private Label koltuknolabel;
+        private TextBox ytelefontext;
     }
 }

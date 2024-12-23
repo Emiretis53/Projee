@@ -31,7 +31,7 @@
             ygostermedata = new DataGridView();
             ylistelabel = new Label();
             biletiptalb = new Button();
-            koltuktext = new TextBox();
+            yolcutc = new TextBox();
             idlabel = new Label();
             button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)ygostermedata).BeginInit();
@@ -40,7 +40,7 @@
             // ygostermedata
             // 
             ygostermedata.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            ygostermedata.Location = new Point(32, 83);
+            ygostermedata.Location = new Point(32, 61);
             ygostermedata.Name = "ygostermedata";
             ygostermedata.Size = new Size(856, 374);
             ygostermedata.TabIndex = 0;
@@ -48,7 +48,7 @@
             // ylistelabel
             // 
             ylistelabel.AutoSize = true;
-            ylistelabel.Location = new Point(32, 65);
+            ylistelabel.Location = new Point(32, 40);
             ylistelabel.Name = "ylistelabel";
             ylistelabel.Size = new Size(85, 15);
             ylistelabel.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // biletiptalb
             // 
-            biletiptalb.Location = new Point(726, 473);
+            biletiptalb.Location = new Point(590, 470);
             biletiptalb.Name = "biletiptalb";
             biletiptalb.Size = new Size(131, 23);
             biletiptalb.TabIndex = 2;
@@ -64,29 +64,30 @@
             biletiptalb.UseVisualStyleBackColor = true;
             biletiptalb.Click += button1_Click;
             // 
-            // koltuktext
+            // yolcutc
             // 
-            koltuktext.Location = new Point(595, 473);
-            koltuktext.Name = "koltuktext";
-            koltuktext.Size = new Size(100, 23);
-            koltuktext.TabIndex = 3;
+            yolcutc.Location = new Point(590, 441);
+            yolcutc.Name = "yolcutc";
+            yolcutc.Size = new Size(100, 23);
+            yolcutc.TabIndex = 3;
             // 
             // idlabel
             // 
             idlabel.AutoSize = true;
-            idlabel.Location = new Point(519, 477);
+            idlabel.Location = new Point(527, 449);
             idlabel.Name = "idlabel";
-            idlabel.Size = new Size(70, 15);
+            idlabel.Size = new Size(57, 15);
             idlabel.TabIndex = 4;
-            idlabel.Text = "Bilet id girin";
+            idlabel.Text = "TC Giriniz";
+            idlabel.Click += idlabel_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(813, 32);
+            button1.Location = new Point(727, 470);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(131, 23);
             button1.TabIndex = 5;
-            button1.Text = "button1";
+            button1.Text = "YENİLE";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
@@ -97,7 +98,7 @@
             ClientSize = new Size(958, 523);
             Controls.Add(button1);
             Controls.Add(idlabel);
-            Controls.Add(koltuktext);
+            Controls.Add(yolcutc);
             Controls.Add(biletiptalb);
             Controls.Add(ylistelabel);
             Controls.Add(ygostermedata);
@@ -113,7 +114,7 @@
         private Label ylistelabel;
         private Button biletiptalb;
         public DataGridView ygostermedata;
-        private TextBox koltuktext;
+        private TextBox yolcutc;
         private Label idlabel;
         private Button button1;
     }

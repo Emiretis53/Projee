@@ -38,26 +38,27 @@
             // adminkullanıcıadılabel
             // 
             adminkullanıcıadılabel.AutoSize = true;
-            adminkullanıcıadılabel.Location = new Point(37, 72);
+            adminkullanıcıadılabel.Location = new Point(32, 57);
             adminkullanıcıadılabel.Name = "adminkullanıcıadılabel";
-            adminkullanıcıadılabel.Size = new Size(82, 19);
+            adminkullanıcıadılabel.Size = new Size(73, 15);
             adminkullanıcıadılabel.TabIndex = 0;
             adminkullanıcıadılabel.Text = "Kullanıcı Adı";
             // 
             // adminsifrelabel
             // 
             adminsifrelabel.AutoSize = true;
-            adminsifrelabel.Location = new Point(84, 131);
+            adminsifrelabel.Location = new Point(74, 103);
             adminsifrelabel.Name = "adminsifrelabel";
-            adminsifrelabel.Size = new Size(35, 19);
+            adminsifrelabel.Size = new Size(30, 15);
             adminsifrelabel.TabIndex = 1;
             adminsifrelabel.Text = "Şifre";
             // 
             // admingirisbuton
             // 
-            admingirisbuton.Location = new Point(125, 192);
+            admingirisbuton.Location = new Point(109, 152);
+            admingirisbuton.Margin = new Padding(3, 2, 3, 2);
             admingirisbuton.Name = "admingirisbuton";
-            admingirisbuton.Size = new Size(152, 42);
+            admingirisbuton.Size = new Size(133, 33);
             admingirisbuton.TabIndex = 2;
             admingirisbuton.Text = "GİRİŞ";
             admingirisbuton.UseVisualStyleBackColor = true;
@@ -65,29 +66,33 @@
             // 
             // adminkaditext
             // 
-            adminkaditext.Location = new Point(125, 69);
+            adminkaditext.Location = new Point(109, 54);
+            adminkaditext.Margin = new Padding(3, 2, 3, 2);
             adminkaditext.Name = "adminkaditext";
-            adminkaditext.Size = new Size(152, 26);
+            adminkaditext.Size = new Size(134, 23);
             adminkaditext.TabIndex = 3;
             // 
             // adminsifretext
             // 
-            adminsifretext.Location = new Point(125, 124);
+            adminsifretext.Location = new Point(109, 98);
+            adminsifretext.Margin = new Padding(3, 2, 3, 2);
             adminsifretext.Name = "adminsifretext";
-            adminsifretext.Size = new Size(152, 26);
+            adminsifretext.Size = new Size(134, 23);
             adminsifretext.TabIndex = 4;
             // 
             // admin_giris
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(391, 367);
+            ClientSize = new Size(342, 290);
             Controls.Add(adminsifretext);
             Controls.Add(adminkaditext);
             Controls.Add(admingirisbuton);
             Controls.Add(adminsifrelabel);
             Controls.Add(adminkullanıcıadılabel);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "admin_giris";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ADMİN GİRİŞİ";
             ResumeLayout(false);
             PerformLayout();
